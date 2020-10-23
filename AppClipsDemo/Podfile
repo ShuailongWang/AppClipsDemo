@@ -1,0 +1,28 @@
+platform :ios, '9.0'
+
+def libs
+	pod 'AFNetworking'
+    pod 'Masonry'
+    pod 'SDWebImage'
+    pod 'MJRefresh'
+    pod 'MJExtension'
+    pod 'FMDB'
+    pod 'Ono'
+    pod 'SSKeychain'
+    pod 'YTKKeyValueStore'
+end
+
+
+target 'AppClipsDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  
+  libs
+
+end
+
+target 'ClipsPackExtension' do
+  # Comment the next line if you don't want to use dynamic frameworks
+
+  libs
+
+end
